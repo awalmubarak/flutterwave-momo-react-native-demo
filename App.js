@@ -36,8 +36,7 @@ export default function App() {
         method: 'POST', // or 'PUT'
         headers: {
           'Content-Type': 'application/json',
-          Authorization:
-            'Bearer FLWSECK_TEST-b300859b27e75571299b7beb31bd2e56-X',
+          Authorization: 'Bearer Your-flutterwave-private-token-here', //remember to replace this with your flutterwave api key
         },
         body: JSON.stringify(data),
       })
